@@ -31,7 +31,7 @@ function CheckoutPage() {
   const navigate = useNavigate();
   const [draft, setDraft] = useState(null);
   const [clientSecret, setClientSecret] = useState(null);
-  const [loadingIntent, setLoadingIntent] = useState(false);
+  const [loadingIntent, setLoadingIntent] = useState(true);
 
   useEffect(() => {
     try {
